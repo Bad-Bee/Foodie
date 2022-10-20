@@ -1,0 +1,273 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:san-serif;
+}
+.hero{
+	height:100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(food.jpg);
+	background-position: center;
+	background-size: cover;
+	overflow-x: hidden;
+	position: relative;
+}
+.regist ul li{
+ position: relative;
+	display: inline-block;
+	font-weight: 400;
+	color: whitesmoke;
+	margin-top: 20px;
+	margin-left: 1100px;
+	margin-right: 50px;
+	padding: 2px 0;
+	margin-bottom: -20px;
+	background: black;
+	 font-family: "Georgia" ,serif;
+}
+.nav-bar{
+	display:flex;
+	padding:40px 120px;
+}
+.nav-logo h1{
+	font-style: bold;
+	color: white;
+	position: relative;
+	width: 150%;
+	height: 60px;
+	 margin: 30px 50px 10px;
+	 font-family: "Georgia" ,serif;
+
+}
+.nav-logo h5{
+	position: relative;
+	color: white;
+	font-family: sans-serif;
+	text-align:left;
+    position:  left;
+	margin-top: -30px;
+	margin-left: 250px;
+	 font-family: "Georgia" ,serif;
+
+    
+}
+.pages ul li{
+	position: relative;
+	display: inline-block;
+	font-weight: 400;
+	color: orange;
+	margin-top: 30px;
+	margin-left: 50px;
+	background: black;
+	 font-family: "Georgia" ,serif;
+
+}
+.body h3{
+	position: relative;
+	color: white;
+	font-family: serif;
+	text-align: bottom left;
+    position: bottom left;
+     margin: 50px 50px 50px 50px;
+}
+
+  .body h2{
+  	color: white;
+  	position:  left;
+  	margin-top:170px;
+    margin-left: 80px;
+    font-family: "Georgia" ,serif; 
+}
+.body h3{
+  	color: white;
+  	position:  left;
+    margin-left: 80px;
+      font-family: "Georgia" ,serif; 
+}
+.body h1{
+  	color: orange;
+  	position:  left;
+  	margin-top: 10px;
+    margin-left: 80px;
+     font-family: "Georgia" ,serif; 
+}
+.button h2 a{
+	color: white;
+	height: 50px;
+	width:100%;
+    margin-left: 600px;
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.below{
+	border: solid;
+	background: black;
+	border-color: black;
+	font-family:serif ;
+	color: white;
+	margin-left: 90px;
+	margin-right: 90px;
+}
+.below img{
+	position: right;
+	margin-left: 90px;
+	margin-top: 30px;
+	height: 120px;
+  width: 10%;
+}
+.below h3{
+	color: floralwhite;
+	position: right;
+  margin-top: -70px;
+  margin-left: 250px;
+}
+
+.below h4{
+	color: darkorange;
+	position: right;
+  margin-top: 5px;
+  margin-left: 250px;
+}
+.below p{
+	color: floralwhite;
+	position: right;
+  margin-top: 0px;
+  margin-left: 250px;
+}
+
+.location h4{
+	color: whitesmoke;
+	font-size: medium;
+	position: right;
+  margin-top: 50px;
+  margin-left: 500px;
+}
+
+.location ul h5{
+	color: ghostwhite;
+	font-size: medium;
+	position: right;
+  margin-top: 10px;
+  margin-left: 500px;
+}
+.location p{
+	color: navajowhite;
+	font-size: medium;
+	margin-top: 20px;
+  margin-left: 500px;
+}
+.location p a{
+	color: darkorange;
+	font-size: medium;
+}
+
+
+.location h3{
+	color: darkorange;
+	font-size: medium;
+	position: right;
+  margin-top: 50px;
+  margin-left: 500px;
+}
+.location h6{
+	background-color: black;
+	border: solid black;
+	color: ghostwhite;
+	margin-top: 50px;
+	margin-left: 90px;
+	margin-right: 90px;
+}
+
+
+
+/*CONTACT CSS*/
+
+
+
+
+.con{
+	height:100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(ist.jpg);
+	background-position: center;
+	background-size: cover;
+	overflow-x: hidden;
+	position: relative;
+}
+.contacts{
+	font-style: bold;
+	color: white;
+	position: relative;
+	width: 150%;
+	height: 60px;
+	 margin: 100px 50px 10px;
+	 font-family: "Georgia" ,serif;
+}
+
+
+/*LOGIN CSS*/
+.titles{
+	height:100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(stock.jpg);
+	background-position: center;
+	background-size: cover;
+	overflow-x: hidden;
+	position: relative;
+}
+.logd{
+	width: 280px;
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+	color: whitesmoke;
+}
+.logd h1{
+	float: left;
+	font-size: 30px;
+	border-bottom: 1px solid darkorange;
+	margin-top: -70px;
+}
+.textbox{
+	margin-top: 10px;
+	margin-bottom: 20px;
+  overflow: hidden;
+  width: 100%;
+  border-bottom: 1px solid darkorange;
+  font-size: 20px;
+  padding: 8px 0;
+  color: black;
+}
+
+
+/*REGISTER CSS*/
+.register{
+	height:100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(stock.jpg);
+	background-position: center;
+	background-size: cover;
+	overflow-x: hidden;
+	position: relative;
+}
+.reg{
+	width: 280px;
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+	color: whitesmoke;
+}
+.logd h1{
+	float: left;
+	font-size: 30px;
+	border-bottom: 1px solid darkorange;
+	margin-top: -70px;
+}
+.textbox{
+	margin-top: 10px;
+	margin-bottom: 20px;
+  overflow: hidden;
+  width: 100%;
+  border-bottom: 1px solid darkorange;
+  font-size: 20px;
+  padding: 8px 0;
+}
